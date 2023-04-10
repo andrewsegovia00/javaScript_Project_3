@@ -1,0 +1,129 @@
+a:link {
+    font-family: Arial;
+    color: red;
+    margin: 15px 0px 20px 40px;
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    padding: 4px 5px 4px 5px;
+}
+
+a {
+    font-weight: bold;
+}
+
+.hyperlinks {
+    display: grid;
+    justify-content: left;
+    align-items: left;
+    height: fit-content;
+    display: inline-block
+}
+
+.header {
+    color: black;
+    font-family: arial;
+    text-align: left;
+    padding: 10px 30px 5px 20px;
+    font-size: 14px;
+    text-decoration: underline overline;
+    letter-spacing: 5px;
+    font-style: italic;
+}
+
+.outerBox {
+    margin-top: -10px;
+    width: 100w;
+    height: 100%;
+    border: 5px;
+    border-color: black;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+}
+
+
+.outerOuterBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.overallText {
+    /* display: inline-block;
+    vertical-align: top;
+    font-family: arial; */
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 50px 0px 10px 0px;
+    text-decoration: underline;
+}
+
+.titleForm {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 15px 15px 0px 15px;
+    margin: 15px 15px 15px 15px;
+    grid-gap: 10px;
+    background-color: black;
+}
+
+.leftJsColumn {
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 25px 0px 0px;
+    text-align: center;
+    display: justify-content;
+    align-content: center;
+    padding: 0px 25px 0px 0px;
+    margin: 0px 20px 0px 40px;
+}
+
+.rightJsColumn {
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    background-color: aliceblue;
+    padding: 30px;
+    width: 300px;
+    margin: 0px 0px 0px 30px;
+}
+
+.btnBackground {
+    background-color: yellow;
+    border-color: none;
+    color: black !important;
+}
+
+.textBtn {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 200px;
+    white-space: normal;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.greyBox {
+    background-color: grey;
+    margin-bottom: 15px;
+}
+
+.innerGreyBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.clickImg {
+    margin: 45px 0px 0px 0px;
+}
